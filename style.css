@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  background-color: rgb(185, 234, 225);
+}
+
+.wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: x-large;
+}
+
+span.smaller {
+  font-size: 1rem;
+}
+
+.code-wrap {
+  display: block;
+  margin-bottom: 3rem;
+  padding: 20px;
+  background-color: #eee;
+  font-weight: 400;
+  white-space: pre-wrap;
+  border: 1px solid #999;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  color: rgb(35 167 143);
+  white-space: pre-wrap;
+}
+
+span {
+  position: relative;
+  display: inline-block;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+}
